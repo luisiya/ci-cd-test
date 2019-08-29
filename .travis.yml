@@ -7,3 +7,9 @@ node_js:
 branches:
   only:
     - master
+
+deploy:
+  provider: heroku
+  app: ci-cd-my-app
+  api_key:
+    secure: 7ee5e4dc-ca0e-495f-8347-0a1dccaeecde
